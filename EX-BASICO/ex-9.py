@@ -1,0 +1,5 @@
+idade = int(input("SUA IDADE: "))
+dia = int(input("O DIA DE NASCIMENTO: "))
+meses = int(input("O MES DE NASCIMENTO: "))
+dia_na_terra = (dia + (idade * 365) + (meses * 30))
+print(f"VOCE ESTA NA TERRA A {dia_na_terra} DIAS")

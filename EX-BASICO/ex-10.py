@@ -1,0 +1,5 @@
+nome = input("DDIGITE SEU NOME => ")
+print(nome)
+print("NOME: ")
+name = input()
+print(name)
