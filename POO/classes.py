@@ -10,27 +10,27 @@ class Pessoa():
 
     def falar(self):
         if self.falando:
-            print("Não estou falando, por que estou fazendo alguma coisa")
+            print("Não estou falando")
         else:
-            print("Estou falando, por que não estou comendo")
+            print("Estou conversando")
             self.falando = True
             self.dormindo = True
             self.comendo = True
 
     def comer(self):
         if self.comendo:
-            print("Não posso comer, por que estou fazendo alguma coisa")
+            print("Não posso comer")
         else:
-            print("Estou comendo, por que estou calado")
+            print("Estou comendo")
             self.comendo = True
             self.falando = True
             self.dormindo = True
 
     def dormir(self):
         if self.dormindo:
-            print("Não estou dormindo, por que estou fazendo alguma coisa")
+            print("Não estou dormindo")
         else:
-            print("Estou dormindo :)")
+            print("Estou dormindo")
             self.dormindo = True
             self.comendo = True
             self.falando = True
