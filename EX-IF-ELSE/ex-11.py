@@ -40,3 +40,40 @@ while resp == "S" or resp == "s":
     resp = input("DESEJA JOGAR NOVAMENTE? [S/N] => ")
 
 print("Saindo...")
+
+# import random
+# dic = {1: "Tesoura", 2: "Papel", 3: "Pedra"}
+
+# print("-"*15)
+# print("  JOGO JOKEPO")
+# print("-"*15)
+# opcao_usuario = int(input("[1] - Tesoura \n[2] - Papel \n[3] - Pedra \n=> "))
+# npc = random.randint(1, 3)
+# print(f"VOCÊ JOGOU => {dic[opcao_usuario]} \nPC JOGOU => {dic[npc]}")
+# if npc == 1:
+#     if opcao_usuario == 1:
+#         print("EMPATE")
+#     elif opcao_usuario == 2:
+#         print("NPC GANHOU")
+#     elif opcao_usuario == 3:
+#         print("VOCÊ GANHOU")
+#     else:
+#         print("INVÁLIDO!! JOGUE NOVAMENTE")
+# if npc == 2:
+#     if opcao_usuario == 1:
+#         print("VOCÊ GANHOU")
+#     elif opcao_usuario == 2:
+#         print("EMPATE")
+#     elif opcao_usuario == 3:
+#         print("NPC GANHOU")
+#     else:
+#         print("INVÁLIDO!! JOGUE NOVAMENTE")
+# if npc == 3:
+#     if opcao_usuario == 1:
+#         print("NPC GANHOU")
+#     elif opcao_usuario == 2:
+#         print("VOCÊ GANHOU")
+#     elif opcao_usuario == 3:
+#         print("EMPATE")
+#     else:
+#         print("INVÁLIDO!! JOGUE NOVAMENTE")
