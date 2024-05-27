@@ -4,14 +4,14 @@ class Jogo():
         self.jogador_1 = "X"
         self.jogador_2 = "O"
 
-    def telaGrid(self): # crição da tela 
+    def telaGrid(self): # crição da do tabuleiro
         for indice in range(len(self.grid)):
             print(self.grid[indice], end=" ")
             if indice == 2 or indice == 5:
                 print()
 
-    def jokenpo(self):
-        for turno in range(9):
+    def jokenpo(self): # jogo
+        for turno in range(9): # alterna sobre os jogadores
             if turno % 2 == 0:
                 jogador = self.jogador_1
             else:
